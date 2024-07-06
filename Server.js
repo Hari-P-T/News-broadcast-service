@@ -34,7 +34,7 @@ server.on('error', (err) => {
 });
 
 function broadcastMessage(message) {
-  if (clients.length > 1) {
+  if (clients.length > 0) {
     clients.forEach((client) => {
       client.write(message);
     });
