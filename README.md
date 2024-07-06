@@ -1,5 +1,5 @@
 # node-broadcaster
-##usage:
+## usage:
 1. starting server -
 ```node Server.js```
 2. starting client -
